@@ -5,6 +5,20 @@ By Md Sanzid Bin Hossain, Joseph Dranetz, Hwan Choi, Zhishan Guo
 
 This repository contains the implementation of a novel framework, **DeepBBWAE-Net**, for estimating joint kinematics using a reduced number of Inertial Measurement Unit (IMU) sensors. The framework leverages advanced deep learning techniques to predict hip, knee, and ankle angles in the sagittal plane using only two shoe-mounted IMU sensors. The proposed method has been tested across various practical walking conditions, including treadmill, overground, stair, and slope environments.
 
+<p align="center">
+  <img src="Figures/Super_learner_3.png" alt="Model Architecture" width="700"/>
+  <br>
+  <em>Figure 1: Overview of the DeepBBWAE-Net architecture</em>
+</p>
+
+<p align="center">
+  <img src="Figures/BagBoost_4.png" alt="Kinetics FM-Net" width="500"/>
+  <br>
+  <em>Figure 2: Overview of the BagBoost cell architecture</em>
+</p>
+
+
+
 ## Highlights
 
 - **Reduced Sensor Setup**: Only two shoe-mounted IMU sensors are used to estimate joint kinematics, reducing the complexity and cost of data collection.
